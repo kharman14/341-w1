@@ -57,7 +57,7 @@ content-type: application/json
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/6455623d41fb7e57740751c4 HTTP/1.1
+DELETE http://localhost:8080/contacts/64556d79505fb7dc0840ca7b HTTP/1.1
 
 // PRODUCTION Deploy
 ### Get all contacts
@@ -65,7 +65,7 @@ GET https://three41-w1.onrender.com/contacts
 
 
 ### Get contact by id
-GET https://three41-w1.onrender.com/contacts/6453ded8560c75d5af8daa7e
+GET https://three41-w1.onrender.com/contacts/6453de61560c75d5af8daa7d
 
 
 ### Create contact
@@ -82,17 +82,17 @@ content-type: application/json
 
 
 ### PUT contact
-PUT https://three41-w1.onrender.com/contacts/6453ded8560c75d5af8daa7d HTTP/1.1
+PUT https://three41-w1.onrender.com/contacts/6453de61560c75d5af8daa7d HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Sarah",
-    "lastName":"Birch",
-    "email":"sarahB@gmail.com",
-    "favoriteColor":"Yellow",
-    "birthday":"06/12/20"
+    "firstName":"Krissie",
+    "lastName":"Jones",
+    "email":"kJones@test.com",
+    "favoriteColor":"Black",
+    "birthday":"01/26/94"
 }
 
 
 ### DELETE contact
-DELETE https://three41-w1.onrender.com/contacts/6453ded8560c75d5af8daa7g HTTP/1.1
+DELETE https://three41-w1.onrender.com/contacts/64556dbd92456e69163719cd HTTP/1.1
