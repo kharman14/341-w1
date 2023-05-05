@@ -29,10 +29,8 @@ GET https://three41-w1.onrender.com/contacts/6453df20560c75d5af8daa7f
 ### Get all contacts
 GET http://localhost:8080/contacts
 
-
 ### Get contact by id
-GET http://localhost:8080/contacts/6453ded8560c75d5af8daa7e
-
+GET http://localhost:8080/contacts/6453de61560c75d5af8daa7d
 
 ### Create contact
 POST http://localhost:8080/contacts HTTP/1.1
@@ -45,7 +43,6 @@ content-type: application/json
     "favoriteColor":"Brown",
     "birthday":"06/19/2000"
 }
-
 
 ### PUT contact
 PUT http://localhost:8080/contacts/6453de61560c75d5af8daa7d HTTP/1.1
@@ -60,7 +57,7 @@ content-type: application/json
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/6453de61560c75d5af8daa7g HTTP/1.1
+DELETE http://localhost:8080/contacts/645564fb41fb7e57740751c5 HTTP/1.1
 
 // PRODUCTION Deploy
 ### Get all contacts
